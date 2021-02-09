@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Episode from './Episode';
+import PropTypes from 'prop-types';
 
 const EpisodeList = ({ episodes }) => {
   const episodeElements = episodes.map((episode) => (
@@ -17,3 +19,13 @@ const EpisodeList = ({ episodes }) => {
 };
 
 export default EpisodeList;
+
+EpisodeList.propTypes = {
+  episodes: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number.isRequired,
+      name: PropTypes.string.isRequired,
+      url: PropTypes.string.isRequired,
+    })
+  ).isRequired,
+};
