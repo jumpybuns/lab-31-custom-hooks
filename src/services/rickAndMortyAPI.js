@@ -9,3 +9,9 @@ export const fetchEpisodes = () => {
       }))
     );
 };
+
+export const fetchEpisode = (id) => {
+  return fetch(`https://rickandmortyapi.com/api/episode/${id}`).then((res) =>
+    res.json()
+  );
+};
