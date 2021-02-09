@@ -13,7 +13,7 @@ const EpisodeList = ({ episodes }) => {
   ));
   return (
     <div>
-      <p>{episodeElements}</p>
+      <ul>{episodeElements}</ul>
     </div>
   );
 };
