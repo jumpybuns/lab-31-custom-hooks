@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import { fetchEpisodes } from '../services/rickAndMortyAPI';
+import { fetchEpisode } from '../services/rickAndMortyAPI';
 import EpisodeDetails from '../components/details/EpisodeDetails';
 
 function EpsiodeById() {
@@ -9,7 +9,7 @@ function EpsiodeById() {
   const { id } = useParams();
 
   useEffect(() => {
-    fetchEpisodes(id).then((res) => {
+    fetchEpisode(id).then((res) => {
       setEpisodes(res), setLoading(false);
     });
   }, []);
