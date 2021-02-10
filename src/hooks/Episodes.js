@@ -25,7 +25,7 @@ export const useEpisode = (id) => {
   useEffect(() => {
     fetchEpisode(id).then((episode) => {
       setEpisode(episode);
-      setLoading(loading);
+      setLoading(false);
     });
   }, [id]);
 
