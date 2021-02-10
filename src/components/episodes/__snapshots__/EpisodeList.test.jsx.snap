@@ -3,17 +3,19 @@
 exports[`EpisodeList component renders EpisodeList 1`] = `
 <DocumentFragment>
   <div>
-    <ul>
+    <ul
+      data-testid="episodes"
+    >
       <li>
         <a
           href="/episodes/1"
         >
           <figure>
             <h1>
-              beans
+              Pilot
             </h1>
             <h2>
-              http
+              https://rickandmortyapi.com/api/episode/1
             </h2>
           </figure>
         </a>

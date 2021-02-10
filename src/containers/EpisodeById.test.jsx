@@ -25,7 +25,7 @@ describe('EpisodeById container', () => {
 
     screen.getAllByAltText('loading');
 
-    const episode = await screen.findByTestId('character');
+    const episode = await screen.findByTestId('episode');
 
     return waitFor(() => {
       expect(episode).not.toBeEmptyDOMElement();

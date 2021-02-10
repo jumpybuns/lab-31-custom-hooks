@@ -2,7 +2,9 @@
 
 exports[`EpisodeDetails component renders EpisodeDetails 1`] = `
 <DocumentFragment>
-  <figure>
+  <figure
+    data-testid="episode"
+  >
     <h2 />
     <h3 />
   </figure>
