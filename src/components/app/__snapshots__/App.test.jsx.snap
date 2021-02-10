@@ -7,12 +7,14 @@ exports[`App component renders App 1`] = `
       <h1>
         Rick and Morty Episodes
       </h1>
+      <a
+        href="/"
+      >
+        <p>
+          Home
+        </p>
+      </a>
     </div>
-    <a
-      href="/"
-    >
-      Home
-    </a>
     <img
       alt="loading"
       src="https://media.giphy.com/media/oYMxbPiBVlVII/giphy.gif"
