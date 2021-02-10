@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 function EpisodeDetails({ name, air_date }) {
   return (
-    <figure>
+    <figure data-testid="episode">
       <h2>{name}</h2>
       <h3>{air_date}</h3>
     </figure>

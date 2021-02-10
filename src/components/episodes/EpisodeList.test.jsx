@@ -12,8 +12,8 @@ describe('EpisodeList component', () => {
           episodes={[
             {
               id: 1,
-              name: 'beans',
-              url: 'http',
+              name: 'Pilot',
+              url: 'https://rickandmortyapi.com/api/episode/1',
             },
           ]}
         />

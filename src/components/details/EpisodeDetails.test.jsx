@@ -8,8 +8,9 @@ describe('EpisodeDetails component', () => {
     const { asFragment } = render(
       <EpisodeDetails
         episodes={{
-          name: 'Beans',
-          url: 'http',
+          id: 2,
+          name: 'Lawnmower Dog',
+          air_date: 'December 9, 2013',
         }}
       />
     );

@@ -8,6 +8,7 @@ const EpisodeById = ({ match }) => {
   const { loading, episode } = useEpisode(match.params.id);
 
   if (loading) return <Loading />;
+
   return <EpisodeDetails name={episode.name} air_date={episode.air_date} />;
 };
 

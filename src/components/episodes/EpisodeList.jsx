@@ -13,7 +13,7 @@ const EpisodeList = ({ episodes }) => {
   ));
   return (
     <div>
-      <ul>{episodeElements}</ul>
+      <ul data-testid="episodes">{episodeElements}</ul>
     </div>
   );
 };
