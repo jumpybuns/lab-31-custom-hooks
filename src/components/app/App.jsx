@@ -8,9 +8,8 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <Header />
         <Router>
-          <Link to="/">Home</Link>
+          <Header />
           <Switch>
             <Route exact path="/" component={AllEpisodes} />
             <Route path="/episodes/:id" component={EpsiodeById} />
