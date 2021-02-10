@@ -17,7 +17,7 @@ function EpsiodeById() {
   if (loading) return <h1>Loading...</h1>;
   return (
     <div>
-      <EpisodeDetails name={episodes.name} />
+      <EpisodeDetails name={episodes.name} air_date={episodes.air_date} />
     </div>
   );
 }
