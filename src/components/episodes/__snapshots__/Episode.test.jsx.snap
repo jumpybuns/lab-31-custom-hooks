@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Episode component renders Episode 1`] = `
+<DocumentFragment>
+  <figure>
+    <h1>
+      Arnold
+    </h1>
+    <h2>
+      http
+    </h2>
+  </figure>
+</DocumentFragment>
+`;

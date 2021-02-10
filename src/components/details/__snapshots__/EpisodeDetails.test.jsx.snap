@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EpisodeDetails component renders EpisodeDetails 1`] = `
+<DocumentFragment>
+  <figure>
+    <h2 />
+    <h3 />
+  </figure>
+</DocumentFragment>
+`;

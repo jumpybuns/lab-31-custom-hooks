@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EpisodeList component renders EpisodeList 1`] = `
+<DocumentFragment>
+  <div>
+    <ul>
+      <li>
+        <a
+          href="/episodes/1"
+        >
+          <figure>
+            <h1>
+              beans
+            </h1>
+            <h2>
+              http
+            </h2>
+          </figure>
+        </a>
+      </li>
+    </ul>
+  </div>
+</DocumentFragment>
+`;
